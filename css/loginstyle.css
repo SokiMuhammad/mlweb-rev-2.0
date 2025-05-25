@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "outfit";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(/mlweb-document-rev-2.0/assets/Minecraft\ Screenshot\ \(5\).png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  width: 420px;
+  background: #222;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.wrapper a {
+  text-decoration: none;
+}
+
+.wrapper a h1 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'ubuntu';
+  color: white;
+}
+
+.wrapper a h1 span{
+  font-weight: 200;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input[type="password"]::-ms-reveal {
+  filter: invert(100%);
+}
+
+.input-box input::placeholder {
+  color: white;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: white;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: white;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 16px;
+  color: gray;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: lightgray;
+  color: #808080;
+}
+
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-link p a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: white;
+  border: none;
+}
+
+.ortext {
+  margin: 0 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.btn img {
+  width: 22px;
+  height: 22px;
+  margin: 0 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
