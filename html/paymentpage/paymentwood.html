@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/42d337db9f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="/mlweb-document-rev-2.0/css/paymentstyle.css"
+    />
+    <title>Payment | Lalo Hosting</title>
+  </head>
+  <body>
+    <div class="payment-container">
+        <a href="/mlweb-document-rev-2.0/html/pricepage.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i></a>
+        <center><a href="/mlweb-document-rev-2.0/html/mainpage.html"
+          ><h1>Lalo<span>Hosting</span></h1></a
+        ></center><br>
+        <h2>Finish Your Purchase!</h2><br>
+        <div class="payment-purchase-container">
+          <div class="payment-purchase-box">
+          <h2>Selected Package</h2><br>
+          <div class="payment-purchase-box-box">
+            <h3>Trimmed Wood</h3>
+          <ul>
+              <li>2 GB RAM</li>
+              <li>2 Core Processor</li>
+              <li>30 GB SSD</li>
+              <li>Weekly Backup</li>
+              <li>Basic DDoS Protection</li>
+              <li>No Custom Sub-Domain</li>
+            </ul>
+          </div><br>
+          <label for="rname"><i class="fa-solid fa-globe"></i> Region :</label>
+            <select name="regionname" id="rname">
+              <option value="APAC">Asia Pacific</option>
+              <option value="EU">Europe</option>
+              <option value="NA">North America</option>
+              <option value="OC">Oceania</option>
+            </select>
+        </div>
+        </div><br>
+        
+
+        <div class="payment-term-container">
+          <h2>Select Terms</h2><br>
+          <div class="payment-term-box">
+          <h3>Monthly</h3>
+          <p>Pay for one month <span>$4.99</span></p>
+        </div><br>
+        <div class="payment-term-box">
+          <h3>3 Months</h3>
+          <p>Pay for 3 months (10% off) <span>$13.47</span></p>
+        </div><br>
+        <div class="payment-term-box">
+          <h3>6 Months</h3>
+          <p>Pay for 6 months (15% off) <span>$25.45</span></p>
+        </div>
+        </div><br>
+        
+
+        <div class="payment-method-container"><h2>Select Payment Methods</h2><br>
+          <div class="payment-method-box">
+            <h3>Pay with PayPal</h3>
+            <p>Redirect to PayPal to complete the purchase</p>
+            <img src="/mlweb-document-rev-2.0/assets/paypal.png" alt="paypal">
+          </div><br>
+          <div class="payment-method-box">
+            <h3>Pay with GoPay</h3>
+            <p>Redirect to GoPay App to complete the purchase</p>
+            <img src="/mlweb-document-rev-2.0/assets/gopay.png" alt="gopay">
+          </div><br>
+          <div class="payment-method-box">
+            <h3>Pay with Dana</h3>
+            <p>Redirect to Dana App to complete the purchase</p>
+            <img src="/mlweb-document-rev-2.0/assets/dana.webp" alt="dana">
+          </div><br>
+          <div class="payment-method-box">
+            <h3>Pay with QRIS</h3>
+            <p>Redirect to QRIS App to complete the purchase</p>
+            <img src="/mlweb-document-rev-2.0/assets/qris.png" alt="qris">
+          </div>
+        </div><br><br>
+        <center><button class="finish-btn" onclick="myFunction()">Finish Purchase</button></center>
+    </div>
+    <script>
+function myFunction() {
+  alert("Your purchase is accepted!");
+}
+</script>
+  </body>
+</html>

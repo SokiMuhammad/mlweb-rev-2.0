@@ -105,20 +105,20 @@ body {
 .wrapper .btn {
   width: 100%;
   height: 45px;
-  background: white;
+  background: #bf3231;
   border: none;
   outline: none;
   border-radius: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   font-size: 16px;
-  color: gray;
+  color: #fff;
   font-weight: 600;
 }
 
 .btn:hover {
-  background: lightgray;
-  color: #808080;
+  background: #9d0a0a;
+  color: #eeeeee;
 }
 
 .wrapper .register-link {
